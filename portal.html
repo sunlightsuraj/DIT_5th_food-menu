@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Food Menu Admin Portal</title>
+	<link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+	<style>
+		.item-cat {
+			text-align: left;
+			font-size: 1.2em;
+		}
+	</style>
+
+	<script src="./jquery/dist/jquery.min.js"></script>
+	<script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<div class="card">
+		<div class="card-header">
+			<div class="float-end">
+				<button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#cat-modal">Add New Category</button>
+				<button class="btn btn-success btn-sm">Add New Item</button>
+			</div>
+			<h3 class="card-title">Food Menu Portal</h3>
+		</div>
+		<div class="card-body">
+			<table class="table table-hover">
+				<tbody>
+					<tr>
+						<td colspan="3" class="item-cat">Momos</td>
+						<td align="right">
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item edit-btn" data-id="1">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Veg Steam</td>
+						<td>Rs. 120</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Buff Steam</td>
+						<td>Rs. 140</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Chicken Steam</td>
+						<td>Rs. 150</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+		
+					<tr>
+						<td colspan="3" class="item-cat">Chowmin</td>
+						<td align="right">
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item edit-btn">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Veg Chowming</td>
+						<td>Rs. 120</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Chicken Chowmin</td>
+						<td>Rs. 140</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Egg Chowmin</td>
+						<td>Rs. 150</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+		
+					<tr>
+						<td colspan="3" class="item-cat">Chilly</td>
+						<td align="right">
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Chicken Chilly</td>
+						<td>Rs. 200</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Buff Chilly</td>
+						<td>Rs. 150</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Sausage Chilly</td>
+						<td>Rs. 250</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+		
+					<tr>
+						<td colspan="4" class="item-cat">DRINKS</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>MILK TEA</td>
+						<td>Rs. 50</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>BLACK TEA</td>
+						<td>Rs. 30</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>MILK COFFEE</td>
+						<td>Rs. 100</td>
+						<td>
+							<div class="dropdown">
+								<button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Action</button>
+								<div class="dropdown-menu">
+									<a href="#" class="dropdown-item">Edit</a>
+									<a href="#" class="dropdown-item">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="modal" id="cat-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Add New Category</h3>
+					<button class="btn-close float-end"></button>
+				</div>
+				<div class="modal-body">
+					<form action="/backend/category-add.php" method="post">
+						<input type="hidden" name="id" id="id-input" />
+						<div class="">
+							<input type="text" name="title" placeholder="Category" class="form-control">
+						</div>
+						<div class="mt-3">
+							<button type="submit" class="btn btn-primary">Save</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		let editElement = document.querySelector('.edit-btn');
+		let idInput = document.getElementById("id-input");
+		const myModal = new bootstrap.Modal('#cat-modal', {
+			keyboard: false
+		})
+
+		
+
+		editElement.addEventListener('click', function (e) {
+			myModal.toggle();
+			let id = e.target.getAttribute('data-id');
+			idInput.value = 1;
+		})
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+	width: 100%;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.title-wrapper {
+	padding: 5px auto;
+	background-color: chocolate;
+}
+
+.title-main {
+	margin: 0;
+	font-size: 2em;
+	text-align: center;
+}
+
+.menu-container {
+	background-color: #ddd;
+	padding: 10px 20px;
+}
+
+.menu-group .menu-cat {
+	text-align: center;
+	font-size: 1.5em;
+	color: #111;
+}
+
+.menu-group .menu-table {
+	width: 100%;
+}
+
+.menu-table td:nth-child(1) {
+	width: 5%;
+}
+
+.menu-table td:nth-child(3) {
+	text-align: right;
+}
